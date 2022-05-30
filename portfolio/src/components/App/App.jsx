@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/" component={SampleComponent}></Route>
       </div>
       </BrowserRouter>
+      Hello world
     </div>
   )
 }
