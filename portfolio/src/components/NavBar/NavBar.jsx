@@ -1,6 +1,6 @@
 import React from 'react'
 import { slide as Menu } from 'react-burger-menu'
-import { Link } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 import "./NavBar.css"
 
 class NavBar extends React.Component{
@@ -28,4 +28,4 @@ class NavBar extends React.Component{
   }
 }
 
-export default NavBar
+export default withRouter(NavBar);
