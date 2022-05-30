@@ -19,9 +19,12 @@ const App = () => {
       <BrowserRouter>
       <div>
         <Route path="/" component={SampleComponent}></Route>
+        <Route path="/about" component={SampleComponent}></Route>
+        <Route path="/projects" component={SampleComponent}></Route>
+        <Route path="/skills" component={SampleComponent}></Route>
+        <Route path="/contact" component={SampleComponent}></Route>
       </div>
       </BrowserRouter>
-      Hello world
     </div>
   )
 }
